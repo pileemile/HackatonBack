@@ -2,7 +2,7 @@ version: '3'
 
 services:
   db:
-    image: postgres:13  # Utilisez l'image officielle de PostgreSQL
+    image: postgres:13
     environment:
       POSTGRES_USER: "root"
       POSTGRES_PASSWORD: "root"
@@ -10,15 +10,15 @@ services:
     ports:
       - "5436:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data  # Stockage persistant des données PostgreSQL
+      - postgres_data:/var/lib/postgresql/data
 
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8080
+    command: python manage.py runserver 0.0.0.0:8081
     volumes:
-      - .:/app  # Montez le répertoire actuel pour le développement
+      - .:/app
     ports:
-      - "8080:8080"  # Exposez le port 8080 pour accéder à Django
+      - "8081:8081"
     environment:
       DJANGO_SECRET_KEY: your-secret-key
       DJANGO_DEBUG: "True"
@@ -26,11 +26,11 @@ services:
       POSTGRES_DB: HackatonBack
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
-      POSTGRES_HOST: db  # Le conteneur Django se connectera à PostgreSQL via ce nom de service
-      POSTGRES_PORT: 5432  # Le conteneur Django doit se connecter sur le port interne de PostgreSQL
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
 
     depends_on:
-      - db  # Assurez-vous que la base de données est démarrée avant Django
+      - db
 
 volumes:
   postgres_data:
