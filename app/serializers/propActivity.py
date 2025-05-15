@@ -3,7 +3,7 @@ from rest_framework import serializers
 from app.models import PropActivity
 
 
-class PropActivitySerializer(serializers.Serializer):
+class PropActivitySerializer(serializers.ModelSerializer):
     class Meta:
         model = PropActivity
-        field = ("id", "titre", "description")
+        fields = ("id", "titre", "description")

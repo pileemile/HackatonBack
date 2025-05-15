@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ffff7-c6bb-443c-8b30-2287dbcbfd7a" name="Changes" comment="add signal, signalAcivity">
-      <change afterPath="$PROJECT_DIR$/app/fixtures/prop_activity.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fixtures/signal.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fixtures/singalActivity.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/propActivity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/serializers/propActivity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/propActivity.py" afterDir="false" />
+    <list default="true" id="960ffff7-c6bb-443c-8b30-2287dbcbfd7a" name="Changes" comment="add propActivity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackatonBack/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HackatonBack/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fixtures/users.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/fixtures/users.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/signalActivity.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/signalActivity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/singalActivity.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/singalActivity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0002_signal_signalactivity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0003_propactivity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0004_remove_signalactivity_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/signal.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/signal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +118,7 @@
       <updated>1747297016002</updated>
       <workItem from="1747297017381" duration="6829000" />
       <workItem from="1747304016323" duration="8921000" />
-      <workItem from="1747317108284" duration="2229000" />
+      <workItem from="1747317108284" duration="3392000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -154,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747305591072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add propActivity">
+      <option name="closed" value="true" />
+      <created>1747319937565</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747319937565</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="add signal, signalAcivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add signal, signalAcivity" />
+    <MESSAGE value="add propActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add propActivity" />
   </component>
 </project>
