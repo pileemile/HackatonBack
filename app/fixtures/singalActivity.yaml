@@ -1,0 +1,69 @@
+- model: app.SignalActivity
+  pk: 1
+  fields:
+    signal: 1
+    date: "2023-10-01T12:00:00Z"
+    type: "Type 1"
+
+- model: app.SignalActivity
+  pk: 2
+  fields:
+    signal: 2
+    date: "2023-10-02T12:00:00Z"
+    type: "Type 2"
+
+- model: app.SignalActivity
+  pk: 3
+  fields:
+    signal: 3
+    date: "2023-10-03T12:00:00Z"
+    type: "Type 3"
+
+- model: app.SignalActivity
+  pk: 4
+  fields:
+    signal: 4
+    date: "2023-10-04T12:00:00Z"
+    type: "Type 4"
+
+- model: app.SignalActivity
+  pk: 5
+  fields:
+    signal: 5
+    date: "2023-10-05T12:00:00Z"
+    type: "Type 5"
+
+- model: app.SignalActivity
+  pk: 6
+  fields:
+    signal: 6
+    date: "2023-10-06T12:00:00Z"
+    type: "Type 6"
+
+- model: app.SignalActivity
+  pk: 7
+  fields:
+    signal: 7
+    date: "2023-10-07T12:00:00Z"
+    type: "Type 7"
+
+- model: app.SignalActivity
+  pk: 8
+  fields:
+    signal: 8
+    date: "2023-10-08T12:00:00Z"
+    type: "Type 8"
+
+- model: app.SignalActivity
+  pk: 9
+  fields:
+    signal: 9
+    date: "2023-10-09T12:00:00Z"
+    type: "Type 9"
+
+- model: app.SignalActivity
+  pk: 10
+  fields:
+    signal: 10
+    date: "2023-10-10T12:00:00Z"
+    type: "Type 10"
