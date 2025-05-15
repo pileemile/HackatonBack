@@ -5,4 +5,4 @@ from app.models import SignalActivity
 class SignalActivitySerializer (serializers.ModelSerializer):
     class Meta:
         model = SignalActivity
-        fields = ('id', 'user', 'signal', 'date', 'type')
+        fields = ('id', 'signal', 'date', 'type')

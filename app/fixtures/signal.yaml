@@ -1,0 +1,49 @@
+- model: app.Signal
+  pk: 1
+  fields:
+    description: "Description du signal 1"
+
+- model: app.Signal
+  pk: 2
+  fields:
+    description: "Description du signal 2"
+
+- model: app.Signal
+  pk: 3
+  fields:
+    description: "Description du signal 3"
+
+- model: app.Signal
+  pk: 4
+  fields:
+    description: "Description du signal 4"
+
+- model: app.Signal
+  pk: 5
+  fields:
+    description: "Description du signal 5"
+
+- model: app.Signal
+  pk: 6
+  fields:
+    description: "Description du signal 6"
+
+- model: app.Signal
+  pk: 7
+  fields:
+    description: "Description du signal 7"
+
+- model: app.Signal
+  pk: 8
+  fields:
+    description: "Description du signal 8"
+
+- model: app.Signal
+  pk: 9
+  fields:
+    description: "Description du signal 9"
+
+- model: app.Signal
+  pk: 10
+  fields:
+    description: "Description du signal 10"

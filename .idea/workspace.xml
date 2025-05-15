@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ffff7-c6bb-443c-8b30-2287dbcbfd7a" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/app/fixtures/users.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/signal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/signalActivity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/serializers/signal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/serializers/singalActivity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/signal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/signalActivity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HackatonBack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HackatonBack.iml" afterDir="false" />
+    <list default="true" id="960ffff7-c6bb-443c-8b30-2287dbcbfd7a" name="Changes" comment="add signal, signalAcivity">
+      <change afterPath="$PROJECT_DIR$/app/fixtures/prop_activity.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fixtures/signal.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fixtures/singalActivity.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/propActivity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/serializers/propActivity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/propActivity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackatonBack/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HackatonBack/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fixtures/users.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/fixtures/users.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/signalActivity.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/signalActivity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/singalActivity.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/singalActivity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +63,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/bdd",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/bdd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;,
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="HackatonBack" type="Python.DjangoServer" factoryName="Django server">
       <module name="HackatonBack" />
@@ -120,7 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1747297016002</updated>
       <workItem from="1747297017381" duration="6829000" />
-      <workItem from="1747304016323" duration="1261000" />
+      <workItem from="1747304016323" duration="8921000" />
+      <workItem from="1747317108284" duration="2229000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -138,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747303691386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add signal, signalAcivity">
+      <option name="closed" value="true" />
+      <created>1747305591072</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747305591072</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +162,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add signal, signalAcivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add signal, signalAcivity" />
   </component>
 </project>

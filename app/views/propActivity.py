@@ -1,11 +1,11 @@
 from rest_framework import mixins
 from rest_framework.viewsets import GenericViewSet
 
-from app.models import SignalActivity
-from app.serializers import SignalActivitySerializer
+from app.models import PropActivity
+from app.serializers import PropActivitySerializer
 
 
-class SignalActivityModelViewSet(
+class PropActivityViewSet(
     GenericViewSet,
     mixins.ListModelMixin,
     mixins.RetrieveModelMixin,
@@ -13,6 +13,7 @@ class SignalActivityModelViewSet(
     mixins.UpdateModelMixin,
     mixins.DestroyModelMixin,
 ):
-    serializer_class = SignalActivitySerializer
+    serializer_class = PropActivitySerializer
+
     def get_queryset(self):
-        return SignalActivity.objects.all()
+        return PropActivity.objects.all()
