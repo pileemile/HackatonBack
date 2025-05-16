@@ -5,4 +5,4 @@ from app.models import Signal
 class SignalSerializer(serializers.ModelSerializer):
     class Meta:
         model = Signal
-        fields = ('id', 'name', 'description')
+        fields = ('id', 'description', 'quartier')

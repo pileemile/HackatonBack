@@ -2,48 +2,58 @@
   pk: 1
   fields:
     description: "Description du signal 1"
+    quartier: "1"
 
 - model: app.Signal
   pk: 2
   fields:
     description: "Description du signal 2"
+    quartier: "2"
 
 - model: app.Signal
   pk: 3
   fields:
     description: "Description du signal 3"
+    quartier: "3"
 
 - model: app.Signal
   pk: 4
   fields:
     description: "Description du signal 4"
+    quartier: "4"
 
 - model: app.Signal
   pk: 5
   fields:
     description: "Description du signal 5"
+    quartier: "5"
 
 - model: app.Signal
   pk: 6
   fields:
     description: "Description du signal 6"
+    quartier: "6"
 
 - model: app.Signal
   pk: 7
   fields:
     description: "Description du signal 7"
+    quartier: "7"
 
 - model: app.Signal
   pk: 8
   fields:
     description: "Description du signal 8"
+    quartier: "8"
 
 - model: app.Signal
   pk: 9
   fields:
     description: "Description du signal 9"
+    quartier: "9"
 
 - model: app.Signal
   pk: 10
   fields:
     description: "Description du signal 10"
+    quartier: "1"
