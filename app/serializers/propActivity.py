@@ -6,4 +6,4 @@ from app.models import PropActivity
 class PropActivitySerializer(serializers.ModelSerializer):
     class Meta:
         model = PropActivity
-        fields = ("id", "titre", "description")
+        fields = ("id", "titre", "description", "quartier")
