@@ -1,16 +1,21 @@
-# Dockerfile
 FROM python:3.9
 
 # Installer les dépendances système nécessaires
 RUN apt-get update && apt-get install -y \
     libpq-dev \
-    build-essential
+    build-essential \
+    zsh
 
 # Définir le répertoire de travail
 WORKDIR /app
 
 # Copier requirements.txt et installer les dépendances Python
 COPY requirements.txt /app/
+
+# Installer Oh My Zsh
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
+# Installer les dépendances Python
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier le reste du code
