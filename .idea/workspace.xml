@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ffff7-c6bb-443c-8b30-2287dbcbfd7a" name="Changes" comment="add propActivity">
+    <list default="true" id="960ffff7-c6bb-443c-8b30-2287dbcbfd7a" name="Changes" comment="update signal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/fixtures/signal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/fixtures/signal.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/signal.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/signal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,7 @@
       <workItem from="1747297017381" duration="6829000" />
       <workItem from="1747304016323" duration="8921000" />
       <workItem from="1747317108284" duration="3813000" />
-      <workItem from="1747379146515" duration="684000" />
+      <workItem from="1747379146515" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -159,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747327362323</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update signal">
+      <option name="closed" value="true" />
+      <created>1747380067382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747380067382</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +174,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="add signal, signalAcivity" />
     <MESSAGE value="add propActivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add propActivity" />
+    <MESSAGE value="update signal" />
+    <option name="LAST_COMMIT_MESSAGE" value="update signal" />
   </component>
 </project>
