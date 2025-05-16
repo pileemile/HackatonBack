@@ -11,10 +11,12 @@ WORKDIR /app
 
 # Copier requirements.txt et installer les dépendances Python
 COPY requirements.txt /app/
+
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 
-RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Copier le reste du code
 COPY . /app/
